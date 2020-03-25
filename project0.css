@@ -1,12 +1,17 @@
 h1 {
     font-size: 36px;
-    color: blue; }
+    color: blue; 
+    padding: 10px;
+}
   
 h2 {
     font-size: 24px;
-    color: gray; }
+    color: gray; 
+    padding: 10px;
+}
 
 .maintext {
     font-size: 20px;
     color: crimson;
+    padding: 15px;
 }
