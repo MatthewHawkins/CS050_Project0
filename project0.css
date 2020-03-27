@@ -1,5 +1,5 @@
 h1 {
-    font-size: 36px;
+    font-size: 40px;
     color: blue; 
     padding: 10px;
 }
@@ -13,7 +13,7 @@ h2 {
 
 h3 {	
     font-family: 'Raleway', Helvetica, Arial, sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 70px;
     text-decoration: underline;
     padding: 20px
@@ -43,4 +43,10 @@ h4 {
 
 .plainText {
     background-color: white;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    width: 100%
 }
