@@ -21,7 +21,7 @@ h3 {
 
 h4 {
     color:rgb(41, 40, 41);
-    font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
     line-height: 25px;
     text-decoration: underline;
 }
@@ -53,8 +53,22 @@ h4 {
     width: 100%
 }
 
+.right {
+    text-align: right;
+    margin: auto;
+    width: 100%
+}
+
 .underline {
     text-decoration: underline;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bodytext{
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
 }
 
 table {
