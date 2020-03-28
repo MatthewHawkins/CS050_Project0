@@ -1,0 +1,98 @@
+$maintextcolor: rgb(194, 2, 2);
+
+h1 {
+    font-size: 40px;
+    color: blue; 
+    padding: 10px;
+}
+  
+h2 {
+    font-size: 24px;
+    color: gray; 
+    padding: 10px;
+}
+
+
+h3 {	
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    line-height: 70px;
+    text-decoration: underline;
+    padding: 20px
+}
+
+h4 {
+    color:rgb(41, 40, 41);
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    line-height: 25px;
+    text-decoration: underline;
+}
+
+.maintext {
+    font-size: 20px;
+    color: $maintextcolor;
+    padding: 15px;
+}
+
+.container-fluid {
+    background-color: rgb(150, 149, 149, 0.3); 
+    text-align: left;
+    padding-left: -50px;
+    padding-right: -50px;
+}
+
+#books {
+    text-align: right
+}
+
+.plainText {
+    background-color: white;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    width: 100%
+}
+
+.right {
+    text-align: right;
+    margin: auto;
+    width: 100%
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bodytext{
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+
+table {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    background-color: #333030;
+    color: #dddddd;
+    text-decoration: underline;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
