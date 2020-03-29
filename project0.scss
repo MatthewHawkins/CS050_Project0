@@ -1,6 +1,18 @@
 $maintextcolor: rgb(194, 2, 2);
 $colorWhite: white;
 
+@media (min-width: 500px) {
+    p.maintext {
+      font-size: 20px;
+    }
+  }
+  
+@media  (max-width: 500px) {
+    p.maintext {
+      font-size: 14px;
+    }
+  }
+
 h1 {
     font-size: 40px;
     color: blue; 
